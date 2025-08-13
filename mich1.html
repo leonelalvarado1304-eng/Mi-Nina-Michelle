@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Vida, Michelle </title>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2NNE565F1E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2NNE565F1E');
+</script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico?v=1">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Allura&family=Dancing+Script&family=Satisfy&family=Tangerine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Orbitron:wght@700&family=Great+Vibes&family=Oswald&family=Parisienne&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mich1.css">
+    <link rel="stylesheet" href="mich2.css">
+    <link rel="stylesheet" href="mich3.css">
+    <script src="mich.js" defer></script>
+</head>
+<body>
+        <div class="music-control">
+        <button class="music-btn" id="musicBtn" aria-label="Toggle music">
+            <svg id="playIcon" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z"/>
+            </svg>
+            <svg id="pauseIcon" viewBox="0 0 24 24" style="display: none;">
+                <path d="M6 19h4V5H6zm8-14v14h4V5z"/>
+            </svg>
+        </button>
+        <div class="volume-control" id="volumeControl">
+            <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="0.5" aria-label="Volume control">
+        </div>
+    </div>
+    <audio id="backgroundMusic" loop preload="auto">
+        <source src="MILO J - TU MANTA (Video Oficial).MP3" type="audio/mpeg">
+       
+    </audio>
+    
+    <div class="parallax-bg"></div>
+    <div class="overlay-bg"></div>
+    <div class="main-container">
+        <h1 class="title">Para Mi Niña Bella,Michelle </h1>
+        <div class="intro glass-effect">Mi Niña esta pag te la hago como una muestra del inmenso mor que siento por ti.
+            Gracias por impulsarme a ser una mejor persona cada dia.
+        </div>
+        <div class="quote-section glass-effect">
+            "Tú eres mi niña, mi mundo, el amor de mi vida y la mujer a la cual le voy a dedicar toda mi vida."
+        </div>
+        <div class="quote-section glass-effect">
+            "En las siguientes imagenes veras recuerdos nuestros como: 1.La primera vez que te dije lo que sentia por ti. 2.Nuestra primera cita. 3. Uno de los momentos mas especiales, la PRIMERA VEZ QUE TE REGALE FLORES"
+        </div>
+        <div class="carousel">
+            <div class="image-container active" style="background-image: url('https://via.placeholder.com/1200x500?text=Moment+1');">
+                <img src="niña1.jpg" alt="Memory 1">
+            </div>
+            <div class="image-container" style="background-image: url('https://via.placeholder.com/1200x500?text=Moment+2');">
+                <img src="niña2.jpg" alt="Memory 2">
+            </div>
+            <div class="image-container" style="background-image: url('https://via.placeholder.com/1200x500?text=Moment+3');">
+                <img src="niña5.jpg" alt="Memory 3">
+            </div>
+            <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+
+        <div class="divider"></div>
+
+        <button class="heart-btn" id="openLetterBtn"><span>TE AMO</span></button>
+
+        <div class="letter-overlay" id="letterOverlay">
+            <div class="letter-card">
+                <button class="close" id="closeLetterBtn">×</button>
+                <h2>La niña de mis ojos</h2>
+                <div class="typewriter-container" id="typewriterText">
+                    <div class="line"><span class="cursor"></span></div>
+                                    </div>
+                <p class="signature">
+                    Con todo mi amor, Leonel                </p>
+            </div>
+        </div>
+
+        <div class="memory-section glass-effect fade-in-section">
+            <h2 class="section-title">Nuestros Momentos Importantes</h2>
+                            <div class="memory-item hover-effect">
+                    <h3>El Dia En El Que Comenzo Todo</h3>
+                    <div class="date">15 de Marzo del 2025</div>
+                    <p>Ese día, fue el principio de nuestra historia de amor, ese paseo por el colegio y esa charla en el coliseo fueron el punto de inicio de una historia que quiero que nunca se acabe.</p>
+                </div>
+                            <div class="memory-item hover-effect">
+                    <h3>Nuestra Primera Cita</h3>
+                    <div class="date">18 de Marzo del 2025</div>
+                    <p>Esa tarde fue perfecta a tu lado, ese dia me di cuenta que lo qe siento por ti es unico, me di cuenta de la hermosa persona que eres y que te merecias hasta mi vida con tal de verte feliz. ESE DIA NUNCA LO OLVIDARE.</p>
+                </div>
+                            <div class="memory-item hover-effect">
+                    <h3>El Dia En El Que Te Regale Flores Por Primera Vez</h3>
+                    <div class="date">21 de Abril del 2025</div>
+                    <p>Ese dia estaba demasiado nervioso por diversas razones pero la principal porque era mi primera vez regalando flores y me alegra de que tu hayas sido la persona a la cual se las regale porque eres mi chica indicada, la chica con la cual estoy construyendo una hermosa historiade amor y con la cual quiero pasar el resto de mi vida</p>
+                </div>
+                    </div>
+
+        <div class="time-since-birth glass-effect fade-in-section">
+            <div class="time-title">Tiempo Desde Que Somos Pareja</div>
+            <div class="time-display" id="timeDisplay">121:23:38:49</div>
+            <div class="time-label">Días : Horas : Min : Seg</div>
+            <div class="personalized-message">Desde que soy tu novio mi mundo entero cambio, encontre una nueva razon por la cual cada dia deberia de ser mejor.</div>
+        </div>
+
+        <div class="future-plans glass-effect fade-in-section">
+            <h2 class="section-title">Nuestro Futuro</h2>
+            <p>Una vida entera juntos, nuestra propia casa,viajes por todo el mundo, formando nuestra propia familia, teniendo un mini leo y una mini michelle; amandonos hasta el final de nuestros dias.</p>
+        </div>
+
+        <div class="love-meter glass-effect fade-in-section">
+            <h2>
+                Mi Amor Por Ti         </h2>
+            <div class="meter-container">
+                <div class="meter-fill"></div>
+            </div>
+            <div class="meter-text">100% Tuyo Mi Niña, Por Siempre y Para Siempre</div>
+        </div>
+
+        <div class="end-message glass-effect fade-in-section">
+            Hecho con todo mi cariño para EL AMOR DE MI VIDA.            <p class="signature">MICHELLE</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2025 Creado con
+            amor por TU NIÑO         </p>
+    </div>
+
+    
+</body>
+</html>
